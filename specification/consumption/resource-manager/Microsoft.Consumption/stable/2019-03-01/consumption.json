@@ -1218,7 +1218,7 @@
           "readOnly": true
         },
         "serviceName": {
-          "description": "The name of the service.",
+          "description": "The name of the service .",
           "type": "string",
           "readOnly": true
         },
