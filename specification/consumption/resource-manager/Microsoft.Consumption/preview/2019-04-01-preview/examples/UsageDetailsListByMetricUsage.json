@@ -2,6 +2,7 @@
   "parameters": {
     "api-version": "2019-04-01-preview",
     "scope": "/subscriptions/00000000-0000-0000-0000-000000000000",
+    "metric": "Usage",
     "billingPeriodName": "201903"
   },
   "responses": {
@@ -32,8 +33,8 @@
               "meterId": "00000000-0000-0000-0000-000000000000",
               "meterDetails": null,
               "quantity": 0.000036,
-              "effectivePrice": 0.054693034210767,
-              "cost": 0.000001980949998,
+              "effectivePrice": 0.054693055510767,
+              "cost": 0.000001968949998,
               "unitPrice": 5.47,
               "billingCurrency": "CAD",
               "resourceLocation": "uswest",
@@ -46,9 +47,8 @@
               "offerId": "Offer Id 1",
               "isAzureCreditEligible": false,
               "chargeType": "AsCharged-Usage",
-              "isAmortizedCost" : false,
-              "isActualCost" : true,
-              "frequency" : "UsageBased"
+              "isAmortizedCost" : true,
+              "isActualCost" : true
             }
           }
         ]
